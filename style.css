@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    background-color: yellowgreen;
+}
+.box {
+    background-color: green;
+    width: 1200px;
+    height: 250px;
+    /* position: relative; */
+    animation-name: qutub1;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+}
+
+@keyframes qutub1 {
+    from{
+        width: 200px;
+    }
+    to{
+        width: 700px;
+    }
+}
